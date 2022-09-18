@@ -1,0 +1,48 @@
+.slotus .navbar{
+    font-size: 20px;
+    display: flex;
+   
+}
+
+.slotus .Feature{
+    padding-left: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 60px;
+}
+.slotus .Contact{
+    padding-left: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 60px;
+}
+.slotus .Feedback{
+    padding: 20px 288px 20px 60px;
+}
+.slotus .home{
+    padding-left: 340px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 60px;
+}
+
+.slotus .Sign{
+margin: 20px 30px;
+}
+
+.slotus{
+    padding:44px 60px;
+    display: flex;
+}
+
+.mainheader{
+padding:30px 60px ;
+}
+
+.mainheader .content{
+    float: right;
+}
+
+#logo{
+
+}
