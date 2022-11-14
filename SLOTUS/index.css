@@ -1,48 +1,169 @@
-.slotus .navbar{
-    font-size: 20px;
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    width: 85%;
+    margin: auto;
     display: flex;
+    align-items: center;
+    padding: 30px 0;
+    justify-content: space-between;
+}
+
+.slotus .nav .container .row .col-lg-4 .logo{
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.slotus .nav .container .row .col-lg-6 .tag ul li{
+    list-style: none;
+    display: inline-block;
+    margin:20px 20px;
+    position: relative;
+}
+
+.slotus .nav .container .row .col-lg-6 .tag ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    
+}
+.tag ul li::after{
+    content:'';
+    height:3px;
+    width: 0;
+    background: black;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.tag ul li:hover::after{
+    width: 100%;
+}
+.butn{
+    float:right;
+    margin-top: 20px;
+    margin-right:30px ;
+    background-color: black;
+    color: white;
+}
+.price{
+    text-align: center;
+}
+.price .price1{
+    background-color: black;
+    color: white;
+}
+.price2{
+    background-color: black;
+    color: white;
+}
+.price3{
+    background-color: black;
+    color: white;
+}
+.featured{
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+}
+
+
+.slotus .content .text{
+    font-size: 68px;
+    height: 400px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top:400px;
+}
+
+.slotus .product .container .row{
+    font-size: 30px;
+    margin:35px 0;
+    padding:0;
+
+}
+
+.slotus .features .topic{
+    background: rgb(241, 241, 241);
+    width: 100%;
+    text-align: center;
+    color:black;
+    font-size: 45px;
+    font-weight: 100;
    
+
+    
 }
 
-.slotus .Feature{
-    padding-left: 60px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 60px;
-}
-.slotus .Contact{
-    padding-left: 60px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 60px;
-}
-.slotus .Feedback{
-    padding: 20px 288px 20px 60px;
-}
-.slotus .home{
-    padding-left: 340px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 60px;
+
+.slotus .features{
+    text-align: center;
+    justify-content: space-evenly;
+    margin: 30px 30px;
 }
 
-.slotus .Sign{
-margin: 20px 30px;
+.slotus .features .container .row .feat1{
+    border: 2px solid black;
+    border-radius: 140px;
+    margin-top: 15px;
+
+}
+.slotus .features .container .row .feat2{
+    border: 2px solid black;
+    border-radius: 140px;
+    margin-top: 15px;
+}
+.slotus .features .container .row .feat3{
+    border: 2px solid black;
+    border-radius: 140px;
+    margin-top: 15px;
 }
 
-.slotus{
-    padding:44px 60px;
-    display: flex;
+.slotus .features .container .descript .row{
+    margin-top: 15px;
+    font-size: 30px;
+ 
+    
+    
 }
 
-.mainheader{
-padding:30px 60px ;
+
+.slotus .contact .topic{
+    background: rgb(241, 241, 241);
+    width: 100%;
+    text-align: center;
+    color:black;
+    font-size: 45px;
+    font-weight: 100;
+    margin-bottom: 15px;
+
+
+}
+.slotus .contact .form {
+   
+    margin-left: 0px;
+    text-align: left;
 }
 
-.mainheader .content{
-    float: right;
+.footer .container{
+    background: rgb(241, 241, 241);
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 25px;
 }
 
-#logo{
+.footer .container .footer-content{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 100;
 
+}
+.footer .container .social ul li{
+    text-decoration: none;
+    display: inline-block;
 }

@@ -1,33 +1,178 @@
 <!DOCTYPE html>
-
-<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Pacifico&family=Press+Start+2P&family=Space+Grotesk&display=swap" rel="stylesheet"> 
 <html>
     <head>
         <title>
             SLOTUS
         </title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
         <link rel="stylesheet" href="index.css"><!--Linking css with html-->
-        <body>
-            <div class="slotus">
-                <div class="logo"><img src="C:\Users\sanzi\OneDrive\Desktop\Workshop\SLOTUS\assets\black.png" height="83px" width="60px"></div>
-                
-                <div class="navbar">
-                    <div class="home"><a href>Home</a></div>
-                    <div class="Feature"><a href>Feature</a></div>
-                    <div class="Contact"><a href>Contact Us</a></div>
-                    <div class="Feedback"><a href>Feedback</a></div>
-                    <div class="Sign"><button style="background-color:black; color:aliceblue">Sign Up</button></div>
-                </div>
-            </div>
-            <div class="mainheader">
-                <div class="mainimg"><img src="C:\Users\sanzi\OneDrive\Desktop\Workshop\SLOTUS\assets\Main Header.jpg" alt="Sanjeev Magar" height="847px" width="1440px"> </div>   
-                <div class="content">Order your gaming accessories and enjoy your game
-                using it.</div>
-            </div>
-
-            <div id="logo">
-            </div>
-        </body>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <button onclick="document.getElementById('colorchange').style.backgroundColor='white'">Light mode</button>
+        <button onclick="document.getElementById('colorchange').style.backgroundColor='grey'">Dark mode</button>
+          <button type="button"onclick="document.getElementById('demo').innerHTML = Date()">Date and Time</button>
+            <p id="demo"></p>
     </head>
-</html>        
+        <body id="colorchange">
+           <div class="slotus">
+              <div class="nav">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-4">
+                      <img src="C:\Users\sanzi\OneDrive\Desktop\Workshop\SLOTUS\assets\black.png" height="83px" width="60px" class="logo">
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="tag">
+                        <ul>
+                          <li><a href>Home</a></li>
+                          <li><a href>Features</a></li>
+                          <li><a href>Contact us</a></li>
+                          <li><a href>Feedback</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="col-lg-2">
+                      <button type="button" class="butn">Sign up</button>
+                    </div>
+                  </div>
+                </div>
+                
+                   
+                
+              </div>
+              <div class="content">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <img src="C:\Users\sanzi\OneDrive\Desktop\Workshop\SLOTUS\assets\Main Header.jpg" height="900px" width=100% class="image">
+                      <div class="text"><br>&nbsp;Make a path for a<br> &nbsp;win on every game</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="input-group">
+                        <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+                        <button type="button" class="btn btn-outline-primary">search</button>
+                      </div>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-4">
+                      <img src="C:\Users\sanzi\OneDrive\Desktop\Workshop\SLOTUS\assets\IMG_2429.JPG" class="Pro1"  width="400px" height="400px" style="text-align: left;">
+             
+                    </div>                  
+                    <div class="col-lg-4">
+                      <img src="C:\Users\sanzi\OneDrive\Desktop\Workshop\SLOTUS\assets\dfd.webp" class="Pro2" width="400px" height="400px" style="float: center">
+                     
+                    </div>                  
+                    <div class="col-lg-4">
+                      <img src="C:\Users\sanzi\OneDrive\Desktop\Workshop\SLOTUS\assets\20180127011539-b98e3060-me-3-600x600-1000x1000.jpg" class="Pro3" width="400px" height="400px" style="float:right">
+                    
+                    </div>                  
+                  </div>
+                  <div class="price">
+                    <div class="row">
+                      <div class="col-lg-4">
+                       <button class="price1">RS 6000</button>
+                      </div>                  
+                      <div class="col-lg-4">
+                        <button class="price2">RS 6000</button><br>
+                        <button class="featured">Featured Product</button>
+                      </div>                  
+                      <div class="col-lg-4">
+                        <button class="price1">RS 1200</button>
+                      </div>               
+                    </div>
+                  </div>
+                </div>
 
+              </div>
+            <div class="features">
+              <div class="container"><div class="row"><div class="col-lg-12"><div class="topic"><b>SLOTUS Features</b></div></div></div></div>
+              
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <img src="C:\Users\sanzi\OneDrive\Desktop\Workshop\SLOTUS\assets\delivery.png" class="feat1" width="265px" height="265px">
+                  </div>                  
+                  <div class="col-lg-4">
+                    <img src="C:\Users\sanzi\OneDrive\Desktop\Workshop\SLOTUS\assets\payment.png" class="feat2" width="265px" height="265px">
+                  </div>                  
+                  <div class="col-lg-4">
+                    <img src="C:\Users\sanzi\OneDrive\Desktop\Workshop\SLOTUS\assets\warrenty.png"class="feat3" width="265px" height="265px">
+                  </div>                  
+                </div>
+                <div class="descript">
+                  <div class="row">
+                    <div class="col-lg-4">
+                      <div class="des1">Quick & Free delivery</div>
+                    </div>                  
+                    <div class="col-lg-4">
+                      <div class="des2">Cash on delivery</div>
+              
+                    </div>                  
+                    <div class="col-lg-4">
+                      <div class="des3">Return Warrenty for 7 days</div>
+                    </div>                  
+                  </div>
+                </div>
+
+              </div>
+              </div>
+              <div class="contact">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="topic"><b>Contact Us</b></div>
+                      <div class="form" style="font-size: 20px;">
+                        <form action="/action_page.php" method="post">
+                        <label for="Full name">Full name:</label>
+                        &emsp;&emsp;<input type="text" id="fname" name="fname" required><br><br>
+                        <label for="email">Email address:</label>
+                        &nbsp;<input type="email" id="email" name="email" required><br> <br>
+                        <label for="Contact">Contact no:</label>
+                        &emsp;&ensp;<input type="text" id="contact" name="contact" required><br><br>
+                        <label for="Feedback">Feedback:</label>
+                        &ensp;&emsp;&ensp;<input type="text" id="Feedback" name="Feedback" required><br><br>
+                        <input type="submit" value="Submit" class="but">
+                      </form></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="footer">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="footer-content"><p><b>Slotus</p></div>
+                      <div class="social">
+                        <ul>
+                          <li><a href='#'><i class="fa fa-facebook"></i></a></li>
+                          <li><a href='#'><i class="fa fa-youtube"></i></a></li>
+                          <li><a href='#'><i class="fa fa-twitter"></i></a></li>
+                          <li><a href='#'><i class="fa fa-google-plus"></i></a></li>
+                          <li><a href='#'><i class="fa fa-linkedin-square"></i></a></li>
+                        </ul>
+                      </div>
+                      <div class="footer-bottom"><p>copyright &copy;2022 Slotus</p></div>  
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              </div>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        </body>
+
+   
+
+</html>        
+ 

@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Source+Code+Pro:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Source+Code+Pro:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.sidebar{
+    background-color: red;
+    width: 15vw;
+    font-family: 'Carter One', cursive;
+    height: 100vh;
+
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px;
+}
+.main{
+    background-color: yellow;
+    width: 85vw;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+}
+
+.infocontainer{
+    background-color:purple;
+    height: 75vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello{
+    font-size: 85px;
+}
+
+.name{
+    font-family: 'Carter One', cursive;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    font-size: 65px;
+ 
+
+}
+
+.about{
+
+}
+
+.buttons button{
+
+}
+.devPic img{
+    height :75vh;
+}
